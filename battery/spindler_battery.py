@@ -4,7 +4,7 @@ class SpindlerBattery(Battery):
     def __init__(self, current_date, last_service_date):
         self.current_date = current_date
         self.last_service_date = last_service_date
-        self.years_to_service = 2
+        self.years_to_service = 3
 
     def needs_service(self):
         temp_date = self.last_service_date
